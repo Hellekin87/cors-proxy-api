@@ -14,7 +14,7 @@ module.exports =  {
          console.log("Making proxied request...")
          let url = req.query.url
          let website = await fetchWebiste(url)
-         res.status(200).jsonp(website); 
+         res.status(200).jsonp({website: website}); 
       } catch (error) {
          res.status(400).jsonp({
             "message": error
