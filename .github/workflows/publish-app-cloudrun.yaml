@@ -6,7 +6,7 @@ env:
   service-name: "cors-proxy-api"
   image-name: "cors-proxy-api"
   container-port: 3000
-  max-num-instances: 1
+  max-num-instances: 5
   concurrency: 80
   cpu: 1
   memory: 2Gi
