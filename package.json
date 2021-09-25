@@ -1,0 +1,25 @@
+{
+  "name": "cors-proxy-api",
+  "version": "1.0.0",
+  "description": "api for cors proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellekin87/cors-proxy-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hellekin87/cors-proxy-api/issues"
+  },
+  "homepage": "https://github.com/Hellekin87/cors-proxy-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
